@@ -1,0 +1,145 @@
+/* Few styling segments were obtained from: http://mbostock.github.io/d3/talk/20111018/partition.html*/
+table {
+    border-spacing: 15px;
+}
+.chart {
+  display: block;
+  margin: auto;
+  margin-top: 60px;
+  font-size: 11px;
+}
+
+rect {
+  stroke: #eee;
+  fill: #aaa;
+  fill-opacity: .8;
+}
+
+rect.parent {
+  cursor: pointer;
+  fill: steelblue;
+}
+
+text {
+  pointer-events: none;
+}
+
+
+
+#chart, #header, #footer {
+  top: 0;
+}
+
+
+
+#header, #footer {
+  z-index: 1;
+  display: block;
+  font-size: 36px;
+  font-weight: 300;
+  text-shadow: 0 1px 0 #fff;
+}
+
+#header.inverted, #footer.inverted {
+  color: #fff;
+  text-shadow: 0 1px 4px #000;
+}
+
+#header {
+  top: 80px;
+  left: 140px;
+  width: 1000px;
+}
+
+#footer {
+  top: 680px;
+  right: 140px;
+  text-align: right;
+}
+
+rect {
+  fill: none;
+  pointer-events: all;
+}
+
+pre {
+  font-size: 18px;
+}
+
+line {
+  stroke: #000;
+  stroke-width: 1.5px;
+}
+
+.string, .regexp {
+  color: #f39;
+}
+
+.keyword {
+  color: #00c;
+}
+
+.comment {
+  color: #777;
+  font-style: oblique;
+}
+
+.number {
+  color: #369;
+}
+
+.class, .special {
+  color: #1181B8;
+}
+
+a:link, a:visited {
+  color: #000;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #666;
+}
+
+.hint {
+  position: absolute;
+  right: 0;
+  width: 1280px;
+  font-size: 12px;
+  color: #999;
+}
+
+path {
+  stroke-width: 2;
+  stroke: black;
+}
+
+.hover {
+  stroke-width: 20;
+}
+
+#brain {
+  width: 500;
+  height: 500;
+  border: 2px solid #D5D5D5;
+}
+#icicle {
+  position: relative
+  border: 2px solid #D5D5D5;
+}
+
+.node {
+  fill: #ddd;
+  stroke: #fff;
+}
+
+.label {
+  font: 10px sans-serif;
+  text-anchor: start;
+}
+
+.link {
+  stroke: red;
+  stroke-opacity: .5;
+  fill: none;
+}

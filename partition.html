@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <link type="text/css" rel="stylesheet" href="style.css"/>
+    <script type="text/javascript" src="d3/d3.js"></script>
+    <script type="text/javascript" src="d3/d3.layout.js"></script>
+  </head>
+
+  <body>
+    <h1 style = "text-align:center; color:steelblue"><bold>Physical Structure of the Brain</bold></h1>
+    <table align="left">
+       <tr>
+         <td><div id="icicle"></div></td>
+         <td><div id="brain"></div></td>
+       </tr>
+    </table>
+    <table align="right">
+      <tr>
+       <div id="footer">
+         d3.layout.partition
+         <div class="hint">click or option-click to descend or ascend</div>
+       </div>
+      </tr>
+    </table>
+    <script type="text/javascript" src="partition.js"></script>
+
+    <h4>Created by John Collins, Jose Lopez, Scott McLean, Vincent Steffens</h4>
+    <h4> Created for CMPS 165: Data Programming for Visualization, Winter 2015</h4>
+    <h4>Instructor: Suresh K. Lodha</h4>
+
+    <!-- Create a list using <ul> and <li> tag -->   
+    <h4>Files Submitted:</h4>
+    <li>brainstructure.html</li>
+    <li>brainstructure.js</li>
+    <li>brainstructure.css</li>
+    <li>allen.json</li>
+    <li>human_brain.svg</li>
+    <li>structures.json</li>
+      <h4>Data Sources:</h4>
+      <ol>
+      <li>Neuroanatomical Data and Illustrations From The <a href="http://www.brain-map.org/">Allen Brain Atlas</a></li>
+      </ol>
+      
+    <h4>Visualization Sources: </h4>
+    <ol>
+        <li><a href="http://mbostock.github.io/d3/talk/20111018/partition.html">Zoomable Horizontal Icicle Diagram</a> by Mike Bostock
+        
+        <li>Page Template by the Illustrious <a href="https://users.soe.ucsc.edu/~lodha/">Dr. Suresh Lodha</a></li>
+    </ol>  
+  </body>
+</html>
